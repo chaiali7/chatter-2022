@@ -1,0 +1,43 @@
+
+/* Creates css standards for the text input. Black background with white text*/
+.text-input {
+  width:calc(100% - 50px);
+  border: 1px solid white;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  background: black;
+  color: white;
+}
+
+/* Creates css standards for edit button. Should be in same position as send button*/
+.name-picker-button {
+  background: white;
+  border-radius: 50%;
+  border: none;
+  height: 1.7rem;
+  width: 1.7rem;
+  position: absolute;
+  right: 1.15rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-picker {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.name-picker svg {
+  stroke: white;
+  cursor: pointer;
+}
+.name-picker-name {
+  color: white;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
+

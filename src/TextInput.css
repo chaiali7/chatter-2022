@@ -1,0 +1,50 @@
+
+/* Creates css standards for the footer. All text and borders are white. I can't get the gradient in the back */
+.footer {
+  height: 4rem;
+  width: 98%;
+  border-top: 2px solid white;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  position: relative;
+  margin: auto;
+}
+
+/* Creates css standards for the text input. Black background with white text*/
+.text-input {
+  width:calc(100% - 50px);
+  border: 1px solid white;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  background: black;
+  color: white;
+}
+
+/* Creates css standards for the send button with no border*/
+.send {
+  background: white;
+  border-radius: 50%;
+  border: none;
+  height: 1.7rem;
+  width: 1.7rem;
+  position: absolute;
+  right: 1.15rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* The hover state for the send button*/
+.send:hover {
+  background: black;
+  border: 1px solid white;
+}
+.send:hover svg {
+  stroke: white;
+}
+
+
+
